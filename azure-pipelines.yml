@@ -31,8 +31,8 @@ steps:
   - task: UseDotNet@2
     displayName: 'Use .Net Core SDK 3.1.100'
     inputs:
-    packageType: SDK
-    version: 3.1.100
+      packageType: SDK
+      version: 3.1.100
 
   - task: Npm@1
     displayName: 'Install node packages'
